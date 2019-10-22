@@ -4,7 +4,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -32,7 +32,7 @@
 	</p>
 
 	<form:form commandName="attendee">
-		<form:errors path="*" cssClass="errorBlock" element="div" />
+		<form:errors path="*" cssClass="errorblock" element="div" />
 
 		<label for="textinput1"><spring:message code="attendee.name" />:</label>
 		<form:input path="name" cssErrorClass="error" />
