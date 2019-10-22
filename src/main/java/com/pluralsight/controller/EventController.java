@@ -26,6 +26,6 @@ public class EventController {
     public String processEvent(@ModelAttribute("event") Event event) {
         System.out.println(event);
 
-        return "event";
+        return "redirect:index.html";
     }
 }
